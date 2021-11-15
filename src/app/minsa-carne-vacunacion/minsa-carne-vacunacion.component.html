@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<!-- saved from url=(0041)https://gis.minsa.gob.pe/CarneVacunacion/ -->
+<html lang="es"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <!--<base href="https://gis.minsa.gob.pe/CarneVacunacion/">--><base href=".">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async="" src="js"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-FWED2G8KFJ');
+    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Puedes verificar la aplicación de tu vacuna contra el coronavirus u otras que hayas recibido recientemente en el Carné de vacunación web del Ministerio de Salud. Aquí, está registrada la fecha y lugar donde se te inmunizó, además del tipo de vacuna que recibiste, el fabricante de la vacuna y el número de lote.">
+    <meta name="keywords" content="Carnet Vacunas, Minsa, Covid19">
+    <meta name="author" content="Minsa Perú">
+    <meta http-equiv="Expires" content="0">
+    <meta http-equiv="Last-Modified" content="0">
+    <meta http-equiv="Cache-Control" content="no-cache, mustrevalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <title>MINSA - Carnet Vacunación</title>
+    <link rel="apple-touch-icon" sizes="57x57" href="https://gis.minsa.gob.pe/CarneVacunacion/static/favicons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="https://gis.minsa.gob.pe/CarneVacunacion/static/favicons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="https://gis.minsa.gob.pe/CarneVacunacion/static/favicons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="https://gis.minsa.gob.pe/CarneVacunacion/static/favicons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="https://gis.minsa.gob.pe/CarneVacunacion/static/favicons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="https://gis.minsa.gob.pe/CarneVacunacion/static/favicons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="https://gis.minsa.gob.pe/CarneVacunacion/static/favicons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="https://gis.minsa.gob.pe/CarneVacunacion/static/favicons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://gis.minsa.gob.pe/CarneVacunacion/static/favicons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="https://gis.minsa.gob.pe/CarneVacunacion/static/favicons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://gis.minsa.gob.pe/CarneVacunacion/static/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="https://gis.minsa.gob.pe/CarneVacunacion/static/favicons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://gis.minsa.gob.pe/CarneVacunacion/static/favicons/favicon-16x16.png">
+    <link rel="shortcut icon" type="image/x-icon" href="https://gis.minsa.gob.pe/CarneVacunacion/static/favicons/favicon.ico">
+    <link rel="manifest" href="https://gis.minsa.gob.pe/CarneVacunacion/static/favicons/manifest.json">
+    <meta name="msapplication-TileColor" content="#b7e3e4">
+    <meta name="msapplication-TileImage" content="static/favicons/ms-icon-144x144.png">
+    <meta name="theme-color" content="#b7e3e4">    
+    <link id="app-template" rel="stylesheet" href="/assets/MINSA - Carnet Vacunación_files/app5.css">
+</head>
+<body>
+    <div class="app" id="japp">
+        <div class="aContainer">
+            <div class="aLogo">
+                <img src="/assets/MINSA - Carnet Vacunación_files/logo-carnet-opt.png" class="aLogoImg" alt="Logo Carnet de Vacunación - MINSA">                
+            </div>
+            <div class="aBody" id="jaBody">
+           <div class="aTitle">
+               <img src="/assets/MINSA - Carnet Vacunación_files/injeccion-opt.png" width="30" height="30" alt="Icono Inyección" style="vertical-align: bottom;">
+               Carnet de Vacunación
+           </div>
+           <div class="aBorder1">
+               <div class="row">
+                   <div class="col-3 text-center">
+                       <img src="/assets/MINSA - Carnet Vacunación_files/user-2-opt.png" class="img-responsive" style="width:100%;max-width: 8rem;">
+                   </div>
+                   <div class="col-9">
+                       <div style="line-height:1.3rem">
+                         {{nombre }}
+                         <hr style="border:none; border-top: #d3d8d8 solid 1px;">
+                         <b>Fec. Nac.:</b> {{fecha}}
+                         <hr style="border:none; border-top: #d3d8d8 solid 1px;">
+                         <b>Edad:</b> {{edad}} año(s) 3 mes(es) 10 día(s)
+                         <hr style="border:none; border-top: #d3d8d8 solid 1px;">
+                         <b>Dirección:</b> {{direccion}}
+                       </div>
+                   </div>
+               </div>
+           </div>
+          
+            <div class="row" style="margin-top: 0.8rem">
+                <div class="col-12" style="font-size:1rem">                        
+                    Vacunas Aplicadas: <b>1</b>
+                </div>
+                <div class="col-12" style="text-align:right">
+                    <a href="javascript:void(0);" style="font-size:1rem; font-weight: bold" id="jaBntReclamo">
+                        Solicitar Registro Vacuna COVID-19 
+                        <img src="/assets/MINSA - Carnet Vacunación_files/edit-solid.png" alt="Icono Ver Detalle" style="vertical-align: text-bottom;">
+                    </a>
+                </div>
+            </div>
+            <!--<hr style="border:none; border-top: #d3d8d8 solid 1px;"/>-->           
+           <div class="aCList">
+               <div class="aList">
+                    <div style="display: flex">
+                        <div style="width:2rem">
+                            <div class="aListIcon">
+                                <img src="/assets/MINSA - Carnet Vacunación_files/covid19-opt.png" class="img-responsive" alt="Icono COVID-19">
+                            </div>
+                        </div>
+                        <div style="width: 100%;">
+                            <div class="aListSelect">
+                        <!--
+                        <select class="jOptVacuna" data-id="0">
+                            <option value=""></option>
+                            <option value="1" style="font-size:1rem;">Detalle de Vacuna</option>
+                        </select><a href="javascript:void(0);">VER DETALLE</a>
+                        -->
+                        <button type="button" class="btn jOptVacuna" style="border: none; background: transparent;" data-id="0">                                    
+                            Ver Detalle
+                            <img src="/assets/MINSA - Carnet Vacunación_files/chevron-circle-right-solid.png" alt="Icono Ver Detalle" style="vertical-align: middle;">
+                        </button>                
+                    </div>
+                            <div class="aTxtTitle"><b>Vacuna contra Covid</b></div>
+                        </div>    
+                    </div>
+                    <div class="row">
+                        <div class="col-12" style="background:#e7f6f5; border-radius: 5px;">
+                
+                            <div class="aTxtBody2">
+                            <img src="/assets/MINSA - Carnet Vacunación_files/arrow-alt-circle-right-regular.png" alt="Icono Dosis" style="vertical-align: sub;">
+                             2ª dosis</div>
+                            <div class="aTxtBody2 aTxtBody2-Right">
+                                <img src="/assets/MINSA - Carnet Vacunación_files/shield-alt-solid.png" alt="Icono fecha vacuna" style="vertical-align: sub;">
+                                Viernes 06 de Ago. del 2021 
+                            </div>                            
+                            <div class="aTxtBody2 aTxtBody2-Right">
+                                <img src="/assets/MINSA - Carnet Vacunación_files/map-marker-alt-solid.png" alt="Icono lugar vacuna" style="vertical-align: sub;">
+                                LIMA CENTRO - ESSALUD San Borja - LIMA LIMA SAN BORJA
+                            </div><hr style="border:none; border-top: #dedede solid 1px;">
+                            <div class="aTxtBody2">
+                            <img src="/assets/MINSA - Carnet Vacunación_files/arrow-alt-circle-right-regular.png" alt="Icono Dosis" style="vertical-align: sub;">
+                             1ª dosis</div>
+                            <div class="aTxtBody2 aTxtBody2-Right">
+                                <img src="/assets/MINSA - Carnet Vacunación_files/shield-alt-solid.png" alt="Icono fecha vacuna" style="vertical-align: sub;">
+                                Martes 13 de Jul. del 2021 
+                            </div>                            
+                            <div class="aTxtBody2 aTxtBody2-Right">
+                                <img src="/assets/MINSA - Carnet Vacunación_files/map-marker-alt-solid.png" alt="Icono lugar vacuna" style="vertical-align: sub;">
+                                LIMA SUR - Clínica San Pablo - LIMA LIMA SANTIAGO DE SURCO
+                            </div>                            
+                        </div>
+                    </div>
+             </div>
+           </div>
+        </div>            
+        </div>
+        
+        <nav>
+            <ul>
+                <!--<li>
+                    <a href="inicio/index" routerType="1">
+                        <i class="fad fa-home"></i>
+                        <span>Inicio</span>
+                    </a>
+                </li>-->
+                <li>
+                    <a href="https://gis.minsa.gob.pe/gisipress" target="_blank">
+                        <img src="globe-americas-solid.png" alt="Icono Ver Ipress">
+                        <span>Mapa</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://gis.minsa.gob.pe/CarneVacunacion/info/vacunas" routertype="2">
+                        <img src="exclamation-circle-solid.png" alt="Icono Ver Ipress">
+                        <span>Info</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <button type="button" class="btn btn1 aBtnClose" id="btnGnSalir">Salir</button>
+        </div>
+    <script type="module" src="index.js.descarga"></script>
+    <script nomodule="">document.location.href = 'error-compatibilidad.html';</script>
+
+</body><div id="vimeo-record-extension"></div></html>

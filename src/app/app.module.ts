@@ -1,8 +1,12 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
+
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { FormularioComponent } from './formulario/formulario.component';
+import { MinsaCarneVacunacionComponent } from './minsa-carne-vacunacion/minsa-carne-vacunacion.component';
+import { FormsModule,ReactiveFormsModule   } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -10,7 +14,10 @@ import { AppComponent } from './app.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
+
+
   ],
   providers: [],
   bootstrap: [AppComponent]
